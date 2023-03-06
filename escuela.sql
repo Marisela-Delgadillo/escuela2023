@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: localhost:8889
--- Tiempo de generación: 27-02-2023 a las 20:37:59
+-- Tiempo de generación: 06-03-2023 a las 20:18:02
 -- Versión del servidor: 5.7.39
 -- Versión de PHP: 7.4.33
 
@@ -31,7 +31,7 @@ CREATE TABLE `alumnos` (
   `id` int(11) NOT NULL,
   `nombre` varchar(255) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
-  `uploaded_at` timestamp NULL DEFAULT NULL
+  `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
