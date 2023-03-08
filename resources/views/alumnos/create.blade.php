@@ -17,6 +17,15 @@
             <input type="text" name="nombre">
         </div>
         <div>
+            <label>Carrera:</label>
+            <select name="carrera">
+                <option value="" selected disabled>Elige una carrera</option>
+                @foreach($carreras as $carrera)
+                    <option value="{{$carrera->id}}">{{$carrera->nombre}}</option>
+                @endforeach
+            </select>
+        </div>
+        <div>
             <button type="">Crear alumno</button>
         </div>
     </form>
